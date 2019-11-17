@@ -1,0 +1,387 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+}
+
+.gird{
+    margin: 0px;
+    display: grid;
+    grid-template-areas: 
+        "a a a b"
+        "a a a c"
+        "d e e e"
+        "f e e e"
+        "g g g h"
+        "g g g i"
+        "g g g j"
+        "k k l j"
+        "k k m m"
+        "n n o q"
+        "n n p q"
+        "r s t t"
+        "u s t t"
+        "w x t t"
+        "y y z v"
+        "yo ella ella tu"
+        "ell ella ella tu";
+    
+     grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-auto-rows: 200px;
+    
+}
+.capselera {
+    background-color: black;
+    color: firebrick;
+    font-family: 'Kaushan Script', cursive;
+    padding: 50px;
+    text-align: center;
+    font-size: 50px;
+}
+.capselera:hover {
+    background-color: darkviolet;
+    color: black;
+}
+
+.a {
+    grid-area: a;
+    background-repeat: no-repeat;
+    background-image: url(../IMG/FB_IMG_1429635308990.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+.b {
+    grid-area: b;
+    background-repeat: no-repeat;
+    background-image: url(../IMG/perita.jpg);
+        background-size: cover;
+    background-position: bottom;
+}
+.c {
+    grid-area: c;
+    background-repeat: no-repeat;
+    background-image: url(../IMG/horizontal1%20copia.jpg);
+    background-size: cover;
+    background-position: center center;
+    
+}
+.d {
+    grid-area: d;
+    background-repeat: no-repeat;
+    background-image: url(../IMG/1.jpg);
+    background-size: cover;
+    background-position: center center;
+    
+}
+.e {
+    grid-area: e;
+    background-repeat: no-repeat;
+    background-image: url(../IMG/we.jpg);
+    background-size: cover;
+    background-position: center;
+   
+}
+
+.f {
+    grid-area: f;
+    background-repeat: no-repeat;
+    background-image: url(../IMG/horitzontaljjjjj%20copia.jpeg);
+    background-size: cover;
+    background-position: center;
+   
+}
+.g {
+    grid-area: g;
+    background-repeat: no-repeat;
+    background-image: url(../IMG/vintage022.jpg);
+    background-size: cover;
+    
+}
+.h {
+    grid-area: h;
+    background-repeat: no-repeat;
+    background-image: url(../IMG/horizontale%20copia.jpg);
+    background-size: cover;
+    background-position: center center;
+    
+}
+
+.i {
+    grid-area: i;
+    background-repeat: no-repeat;
+    background-image: url(../IMG/cranaval2.jpg);
+    background-size: cover;
+
+}
+.j {
+    grid-area: j;
+    background-repeat: no-repeat;
+    background-image: url(../IMG/cranaval2.jpg);
+    background-size: cover;
+    background-position: center center;
+    
+}
+.k {
+    grid-area: k;
+    background-repeat: no-repeat;
+    background-image: url(../IMG/petita%20copia.jpeg);
+    background-size: cover;
+    background-position: center;
+  
+}
+.l {
+    grid-area: l;
+    background-repeat: no-repeat;
+    background-image: url(../IMG/petita2%20copia.jpeg);
+    background-size: cover;
+    background-position: center center;
+    
+}
+.m { 
+    grid-area: m;
+    background-repeat: no-repeat;
+    background-image: url(../IMG/dayro.jpg);
+    background-size: cover;
+    background-position: center center;
+   
+}
+.n { 
+    grid-area: n;
+    background-repeat: no-repeat;
+    background-image: url(../IMG/PhotoGrid_1444400912954.jpg);
+    background-size: cover;
+   
+}
+.o { 
+    grid-area: o;
+    background-repeat: no-repeat;
+    background-image: url(../IMG/Snapchat-3904658684287248198.jpg);
+    background-size: cover;
+    background-position:center;
+   
+}
+.p { 
+    grid-area: p;
+    background-repeat: no-repeat;
+    background-image: url(../IMG/vertical3%20copia.jpg);
+    background-size: cover;
+   
+}
+.q { 
+    grid-area: q;
+    background-repeat: no-repeat;
+    background-image: url(../IMG/verticalasaaa%20copia.jpg);
+    background-size: cover;
+    background-position: center center;
+   
+}
+.r { 
+    grid-area: r;
+    background-repeat: no-repeat;
+    background-image: url(../IMG/IMG_20190329_175708_941.jpg);
+    background-size: cover;
+   
+}
+.s { 
+    grid-area: s;
+    background-repeat: no-repeat;
+    background-image: url(../IMG/verticalsaye%20copia.jpeg);
+    background-size: cover;
+    background-position: center center;
+   
+}
+.t { 
+    grid-area: t;
+    background-repeat: no-repeat;
+    background-image: url(../IMG/horitzontaljjjjj%20copia.jpeg);
+    background-size: cover;
+   
+}
+.u { 
+    grid-area: u;
+    background-repeat: no-repeat;
+    background-image: url(../IMG/IMG_20190329_175708_941.jpg);
+    background-size: cover;
+    background-position: center center;
+   
+}
+.v { 
+    grid-area: v;
+    background-repeat: no-repeat;
+    background-image: url(../IMG/ella.jpg);
+    background-size: cover;
+    background-position: center center;
+   
+}
+.w { 
+    grid-area: w;
+    background-repeat: no-repeat;
+    background-image: url(../IMG/hh.jpg);
+    background-size: cover;
+    background-position: center;
+   
+}
+.x { 
+    grid-area: x;
+    background-repeat: no-repeat;
+    background-image: url(../IMG/Snapchat-4373681959578863500.jpg);
+    background-size: cover;
+    background-position:center;
+   
+}
+.y { 
+    grid-area: y;
+    background-repeat: no-repeat;
+    background-image: url(../IMG/snk.jpg);
+    background-size: cover;
+   
+}
+.z {
+    grid-area: z;
+    background-image: url(../IMG/caernaval.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.yo { 
+    grid-area: yo;
+    background-repeat: no-repeat;
+    background-image: url(../IMG/supermarket.jpg);
+    background-size: cover;
+    background-position:center;
+   
+}
+.tu { 
+    grid-area: tu;
+    background-repeat: no-repeat;
+    background-image: url(../IMG/Screenshot.png);
+    background-size: cover;
+    background-position: center;
+   
+}
+.ella { 
+    grid-area: ella;
+    background-repeat: no-repeat;
+    background-image: url(../IMG/IMG-20160502-WA0001.jpg);
+    background-size: cover;
+   
+}
+.ell { 
+    grid-area: ell;
+    background-repeat: no-repeat;
+    background-image: url(../IMG/33.jpg);
+    background-size: cover;
+    background-position:center;
+   
+}
+
+.text{
+    padding: 100px 50px 50px 50px;
+    opacity: 0;
+    background: rgba(0,0,0,0.8);
+    width: 100%;
+    height: 100%;
+    font-family: 'Montserrat', sans-serif;
+    padding: 20px 20px 40px 10px;
+    color: aliceblue;
+    transition: opacity 0.8s;
+    
+}
+
+.container:hover .text{ opacity: 1;
+    
+}
+
+.fut {
+    background-color: black;
+    color: ghostwhite;
+    font-family: 'Montserrat', sans-serif;
+    padding: 5px;
+    text-align: center;
+    font-size: 14px;
+}
+.fut:hover {
+    background-color: darkmagenta;
+    color: greenyellow;
+}
+
+@media only screen and (max-width: 860px){
+    .gird{
+    grid-template-areas:
+        "a g"
+        "c d" 
+        "e f" 
+        "b h"
+        "i j"
+        "k l"
+        "m n"
+        "o p"
+        "q r"
+        "s t"
+        "u v"
+        "w x"
+        "y z"
+        "yo tu"
+        "ell ella"
+        ;
+        grid-template-columns: 1fr 1fr;
+        grid-auto-rows: 200px;
+} 
+    }
+
+@media only screen and (max-width: 600px) {
+    .gird{
+        grid-template-areas: 
+        "a"
+            "b"
+            "c"
+            "d"
+            "e"
+            "f"
+            "g"
+            "h"
+            "i"
+            "j"
+            "k"
+            "l"
+            "m"
+            "n"
+            "o"
+            "p"
+            "q"
+            "r"
+            "s"
+            "t"
+            "u"
+            "v"
+            "w"
+            "x"
+            "y"
+            "z"
+            "yo"
+            "tu"
+            "ell" "ella"
+            ;
+                grid-template-columns: 1fr;
+        grid-auto-rows: 200px;
+    }
+    .capselera {
+    background-color: black;
+    color: aliceblue;
+    font-family: 'Montserrat', sans-serif;
+    padding: 30px;
+    text-align: center;
+    font-size: 20px;
+}
+.capselera:hover {
+    background-color: darkviolet;
+    color: black;
+}
+    .fut {
+    background-color: black;
+    color: ghostwhite;
+    font-family: 'Kaushan Script', cursive;
+    padding: 5px;
+    text-align: center;
+    font-size: 10px;
+}
+    
+}
